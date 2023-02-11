@@ -29,6 +29,10 @@ func main() {
 	array = append(array, 10)
 	array[1] = 10
 	fmt.Print(array)
+
+	if u.age == 21 {
+		fmt.Printf("\nAge: %v", u.age)
+	}
 }
 
 func getName(n string) string {
